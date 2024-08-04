@@ -114,10 +114,18 @@
         height: 50px;
     }
 
+    .productCardBottom div {
+        font-size: x-small;
+    }
+
+    .productCardBottom p {
+        font-size: xx-small;
+    }
+
     .products {
         padding-right: 20px;
         padding-left: 20px;
-        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .intro p {
@@ -155,14 +163,15 @@
         width: 100%;
         margin: 0;
     }
+
     .filterWrapperMobile {
-        display: block; 
+        display: block;
         position: absolute;
         top: 400px;
         left: 0;
         right: 220px;
         z-index: 1000;
-        background: rgba(255, 255, 255, 0.95); 
+        background: rgba(255, 255, 255, 0.95);
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -181,13 +190,13 @@
     }
 
     .filterWrapperMobile {
-        display: block; 
+        display: block;
         position: absolute;
-        top: 350px;
+        top: 410px;
         left: 0;
         right: 0;
         z-index: 1000;
-        background: rgba(255, 255, 255, 0.95); 
+        background: rgba(255, 255, 255, 0.95);
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }

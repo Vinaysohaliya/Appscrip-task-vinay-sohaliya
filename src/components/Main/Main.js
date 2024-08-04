@@ -5,63 +5,13 @@ import Filter from './Filter';
 import ProductList from './ProductList';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Recommend from './recommend';
+import filters from '../../Filter.json'
 
 const Main = ({ products }) => {
     const [selectedFilters, setSelectedFilters] = useState({});
     const [showFilters, setShowFilters] = useState(false);
 
-    const filters = [
-        {
-            name: 'category',
-            label: 'Category',
-            options: [
-                { value: 'electronics', label: 'Electronics' },
-                { value: 'jewelery', label: 'Jewelry' },
-                { value: 'men-clothing', label: 'Men\'s Clothing' },
-                { value: 'women-clothing', label: 'Women\'s Clothing' },
-            ],
-        },
-        {
-            name: 'price',
-            label: 'Price Range',
-            options: [
-                { value: '0-50', label: '$0 - $50' },
-                { value: '51-100', label: '$51 - $100' },
-                { value: '101-200', label: '$101 - $200' },
-                { value: '201+', label: '$201+' },
-            ],
-        },
-        {
-            name: 'price',
-            label: 'Price Range',
-            options: [
-                { value: '0-50', label: '$0 - $50' },
-                { value: '51-100', label: '$51 - $100' },
-                { value: '101-200', label: '$101 - $200' },
-                { value: '201+', label: '$201+' },
-            ],
-        },
-        {
-            name: 'price',
-            label: 'Price Range',
-            options: [
-                { value: '0-50', label: '$0 - $50' },
-                { value: '51-100', label: '$51 - $100' },
-                { value: '101-200', label: '$101 - $200' },
-                { value: '201+', label: '$201+' },
-            ],
-        },
-        {
-            name: 'price',
-            label: 'Price Range',
-            options: [
-                { value: '0-50', label: '$0 - $50' },
-                { value: '51-100', label: '$51 - $100' },
-                { value: '101-200', label: '$101 - $200' },
-                { value: '201+', label: '$201+' },
-            ],
-        },
-    ];
+   
 
     const handleFilterChange = (filterName, filterValue) => {
         setSelectedFilters((prev) => ({ ...prev, [filterName]: filterValue }));

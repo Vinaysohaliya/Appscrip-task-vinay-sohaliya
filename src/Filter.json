@@ -1,0 +1,82 @@
+[
+    {
+        "name": "category",
+        "label": "Category",
+        "options": [
+            { "value": "electronics", "label": "Electronics" },
+            { "value": "jewelery", "label": "Jewelry" },
+            { "value": "men-clothing", "label": "Men's Clothing" },
+            { "value": "women-clothing", "label": "Women's Clothing" }
+        ]
+    },
+    {
+        "name": "price",
+        "label": "Price Range",
+        "options": [
+            { "value": "0-50", "label": "$0 - $50" },
+            { "value": "51-100", "label": "$51 - $100" },
+            { "value": "101-200", "label": "$101 - $200" },
+            { "value": "201+", "label": "$201+" }
+        ]
+    },
+    {
+        "name": "brand",
+        "label": "Brand",
+        "options": [
+            { "value": "brand-a", "label": "Brand A" },
+            { "value": "brand-b", "label": "Brand B" },
+            { "value": "brand-c", "label": "Brand C" },
+            { "value": "brand-d", "label": "Brand D" }
+        ]
+    },
+    {
+        "name": "color",
+        "label": "Color",
+        "options": [
+            { "value": "red", "label": "Red" },
+            { "value": "blue", "label": "Blue" },
+            { "value": "green", "label": "Green" },
+            { "value": "black", "label": "Black" }
+        ]
+    },
+    {
+        "name": "size",
+        "label": "Size",
+        "options": [
+            { "value": "s", "label": "Small" },
+            { "value": "m", "label": "Medium" },
+            { "value": "l", "label": "Large" },
+            { "value": "xl", "label": "Extra Large" }
+        ]
+    },
+    {
+        "name": "rating",
+        "label": "Customer Rating",
+        "options": [
+            { "value": "1-star", "label": "1 Star" },
+            { "value": "2-star", "label": "2 Stars" },
+            { "value": "3-star", "label": "3 Stars" },
+            { "value": "4-star", "label": "4 Stars" },
+            { "value": "5-star", "label": "5 Stars" }
+        ]
+    },
+    {
+        "name": "availability",
+        "label": "Availability",
+        "options": [
+            { "value": "in-stock", "label": "In Stock" },
+            { "value": "out-of-stock", "label": "Out of Stock" },
+            { "value": "pre-order", "label": "Pre-Order" }
+        ]
+    },
+    {
+        "name": "discount",
+        "label": "Discount",
+        "options": [
+            { "value": "10%", "label": "10% Off" },
+            { "value": "20%", "label": "20% Off" },
+            { "value": "30%", "label": "30% Off" },
+            { "value": "50%", "label": "50% Off" }
+        ]
+    }
+]

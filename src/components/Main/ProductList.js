@@ -11,7 +11,7 @@ const ProductList = ({ products }) => {
                     <h4>{product.title}</h4>
                     <div className={styles.productCardBottom}>
                         <p>Sign in or Create an account to see pricing</p>
-                        <Heart />
+                        <div><Heart /></div>
                     </div>
                 </div>
             ))}
