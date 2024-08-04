@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import styles from '../../styles/NavBar.module.css';
+import styles from '../../styles/Header/NavBar.module.css';
 import { Menu, X } from 'lucide-react';
 
 const NavBar = () => {

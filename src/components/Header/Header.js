@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/Header.module.css';
+import styles from '../../styles/Header/Header.module.css';
 import NavBar from './NavBar';
 import { Search, Heart, ShoppingCart, User, Globe, Orbit } from 'lucide-react'; 
 

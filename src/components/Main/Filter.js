@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/Filter.module.css';
+import styles from '../../styles/Main/Filter.module.css';
 import CustomSelect from '../CustomSelect';
 
 const Filter = ({ filters, onChange }) => {

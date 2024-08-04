@@ -22,9 +22,9 @@ const Main = ({ products }) => {
     };
 
     return (
-        <main className={styles.main}>
+        <main className={styles.main} >
             <div className={styles.intro}>
-                <h1>Discover our products</h1>
+                <h1 className=''>Discover our products</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur.
                 </p>

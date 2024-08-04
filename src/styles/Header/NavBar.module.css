@@ -12,6 +12,8 @@
     font-weight: bold;
     color: black;
     cursor: pointer;
+    margin: 0 50px;
+
 }
 
 .navButton:hover {

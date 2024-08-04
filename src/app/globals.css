@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --font-primary: 'Poppins', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-family: var(--font-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden; 
@@ -8,14 +14,17 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: var(--font-primary); /* Apply Poppins to all elements */
 }
 
 html {
-  font-family: var(--font-inter);
-}
- 
-h1 {
-  font-family: var(--font-Poppins-mono);
+  font-family: var(--font-primary);
 }
 
+h1, h2, h3, h4, h5, h6, p, a, span, div {
+  font-family: var(--font-primary);
+}
 
+.poppins {
+  font-family: var(--font-primary);
+}
