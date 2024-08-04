@@ -96,7 +96,7 @@ const BottomFooter = () => {
                     <p>mettā muse Accepts</p>
                     <div className={styles.svgs}>
                         {paymentLogos.map((logo, index) => (
-                            <div className={styles.svg}>{logo.svg}</div>
+                            <div key={index} className={styles.svg}>{logo.svg}</div>
                         ))}
                     </div>
                 </div>

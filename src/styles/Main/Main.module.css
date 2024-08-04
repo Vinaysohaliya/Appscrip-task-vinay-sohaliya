@@ -1,32 +1,32 @@
 .main {
-    margin: 20px;
+    margin: 1.25rem;
     overflow-x: hidden;
 }
 
 .intro {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .content {
-    margin: 20px;
-    margin-left: 100px;
+    margin: 1.25rem;
+    margin-left: 6.25rem;
 }
 
 .products {
     flex: 3;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(21.875rem, 1fr));
+    gap: 1.25rem;
+    padding-right: 3.125rem;
+    padding-left:3.125rem;
 }
 
 .productCard {
     width: 100%;
-    max-width: 350px;
+    max-width: 21.875rem;
     height: auto;
-    padding: 20px;
+    padding: 1.25rem;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -35,16 +35,16 @@
     justify-content: space-between;
     box-sizing: border-box;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .productImage {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 12.5rem;
     object-fit: contain;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .productCardBottom {
@@ -52,34 +52,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .likeIcon {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0.625rem;
+    right: 0.625rem;
     cursor: pointer;
 }
 
 .toggleButton {
-    padding: 10px 15px;
+    padding: 0.625rem 0.9375rem;
     background-color: #ffffff;
     color: rgb(12, 12, 12);
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
-    font-size: 16px;
-    margin: 10px 0;
-    margin-left: 20px;
+    font-size: 1rem;
+    margin: 0.625rem 0;
+    margin-left: 1.25rem;
 }
 
 .itemContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-    margin: 0 100px;
+    padding: 1.25rem 0;
+    margin: 0 6.25rem;
 }
 
 .itemContainer2 {
@@ -89,29 +89,28 @@
 
 .contentWrapper {
     display: flex;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     overflow-x: hidden;
 }
 
 .intro p {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .divider1 {
     height: 1px;
     background-color: #E0E0E0;
-    margin: 0 80px;
+    margin: 0 5rem;
 }
 
 @media (max-width: 768px) {
-
     .content {
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     .verticalLine {
-        border-left: 2px solid #E0E0E0;
-        height: 50px;
+        border-left: 0.125rem solid #E0E0E0;
+        height: 3.125rem;
     }
 
     .productCardBottom div {
@@ -123,8 +122,8 @@
     }
 
     .products {
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -133,12 +132,11 @@
     }
 
     .intro h1 {
-        margin-bottom: 5px;
-
+        margin-bottom: 0.3125rem;
     }
 
     .itemContainer {
-        margin: 0 20px;
+        margin: 0 1.25rem;
         flex-direction: row;
         align-items: flex-start;
     }
@@ -149,56 +147,54 @@
 
     .toggleButton {
         width: 100%;
-        padding: 10px;
-        font-size: 14px;
+        padding: 0.625rem;
+        font-size: 0.875rem;
     }
 
     .contentWrapper {
         display: flex;
-        margin: 20px 0;
+        margin: 1.25rem 0;
         overflow-x: hidden;
     }
 
     .divider1 {
         width: 100%;
         margin: 0;
+        color: #fff;
     }
 
     .filterWrapperMobile {
         display: block;
         position: absolute;
-        top: 400px;
+        top: 25rem;
         left: 0;
-        right: 220px;
+        right: 13.75rem;
         z-index: 1000;
         background: rgba(255, 255, 255, 0.95);
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 1.25rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     }
 }
 
 @media (max-width: 480px) {
-
     .intro h1 {
         margin-bottom: 0px;
-
     }
 
     .intro p {
         margin-bottom: 0px;
-
     }
 
     .filterWrapperMobile {
         display: block;
         position: absolute;
-        top: 410px;
+        top: 25.625rem;
         left: 0;
         right: 0;
         z-index: 1000;
         background: rgba(255, 255, 255, 0.95);
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 1.25rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     }
 
     .products {
@@ -209,7 +205,6 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-
     }
 
     .itemContainer2 {
@@ -217,14 +212,14 @@
     }
 
     .verticalLine {
-        border-left: 2px solid #E0E0E0;
-        height: 50px;
-        margin: 0 10px;
+        border-left: 0.125rem solid #E0E0E0;
+        height: 3.125rem;
+        margin: 0 0.625rem;
     }
 
     .toggleButton {
         width: 100%;
-        padding: 10px;
-        font-size: 16px;
+        padding: 0.625rem;
+        font-size: 1rem;
     }
 }

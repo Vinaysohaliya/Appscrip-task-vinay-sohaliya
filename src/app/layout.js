@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           })}
         </script>
       </Head>
-      <body>
+      <body suppressHydrationWarning={true}>
         <Header />
         <hr />
         {children}

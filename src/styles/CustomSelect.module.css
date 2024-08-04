@@ -1,20 +1,19 @@
-
 .selectContainer {
     position: relative;
-    width: 200px; 
+    width: 12.5rem; 
 }
 
 .labelContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
     cursor: pointer;
 }
 
 .label {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .arrow {
@@ -27,15 +26,15 @@
     display: block;
     position: relative;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     z-index: 1000;
-    max-height: 200px;
+    max-height: 12.5rem;
     overflow-y: auto;
-    margin-top: 5px; 
+    margin-top: 0.3125rem; 
 }
 
 .option {
-    padding: 10px;
+    padding: 0.625rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -44,5 +43,3 @@
 .option:hover {
     background-color: #f0f0f0;
 }
-
-

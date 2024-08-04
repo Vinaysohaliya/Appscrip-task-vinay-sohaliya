@@ -1,18 +1,17 @@
-
 .dropdown {
     position: relative; 
     display: inline-block; 
 }
 
 .dropdownHeader {
-    padding: 10px; 
-    border-radius: 5px; 
+    padding: 0.625rem; 
+    border-radius: 0.3125rem; 
     cursor: pointer; 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
     white-space: nowrap; 
-    width: 200px;
+    width: 12.5rem;
 }
 
 .dropdownOptions {
@@ -26,11 +25,10 @@
 }
 
 .dropdownOption {
-    padding: 15px; 
+    padding: 0.9375rem; 
     cursor: pointer; 
 }
 
 .dropdownOption:hover {
     background-color: #f0f0f0; 
 }
-
