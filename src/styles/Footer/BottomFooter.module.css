@@ -60,7 +60,6 @@
     right: 0;
     z-index: 10;
     display: none;
-    overflow-y: scroll;
 }
 
 .dropdownList.show {
