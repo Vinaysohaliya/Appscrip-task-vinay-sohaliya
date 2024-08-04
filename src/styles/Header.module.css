@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    height: 25px;
+    background-color: black;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logoName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+.navbarcomponent1 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .hideicon {
+        display: none;
+    }
+
+    .logo {
+        display: flex;        
+        align-items: center;
+    }
+    .navbarcomponent2 {
+        display: none;
+    }
+    .navbarcomponent1 {
+        display: block;
+    }
+
+}

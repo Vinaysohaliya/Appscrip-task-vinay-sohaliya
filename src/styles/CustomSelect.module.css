@@ -1,0 +1,48 @@
+
+.selectContainer {
+    position: relative;
+    width: 200px; 
+}
+
+.labelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.options {
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 5px; 
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+
